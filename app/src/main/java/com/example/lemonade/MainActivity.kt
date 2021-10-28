@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity() {
 
             RESTART -> lemonadeState = SELECT
         }
-         setViewElements()
+         setViewElements() //take state to show image and string
         }
     /**
      * Set up the view elements according to the state.
